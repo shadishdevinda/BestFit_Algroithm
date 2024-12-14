@@ -89,7 +89,7 @@ def update_status():
     memory_status.set("\n".join(manager.memory_status()))
 
 # Initial Setup
-blocks = [100, 200, 300, 400, 500]
+blocks = [80, 250, 325, 550, 1000, 150]
 manager = BestFitMemoryManager(blocks)
 
 root = tk.Tk()
